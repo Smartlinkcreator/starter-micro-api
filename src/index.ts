@@ -10,7 +10,7 @@ import express from 'express';
 import { linkDb, usersDB } from './utils/config';
 
 let corsOptions = {
-    origin: ['http://localhost:4200', 'https://smart-link-5b49a.firebaseapp.com', 'https://smart-link-5b49a.firebaseapp.com'],
+    origin: ['http://localhost:4200', 'https://smart-link-5b49a.firebaseapp.com', 'https://smart-link-5b49a.web.app/'],
 }
 
 const app = express();
