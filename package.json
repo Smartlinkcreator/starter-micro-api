@@ -2,8 +2,7 @@
   "name": "smart-link",
   "version": "1.0.0",
   "description": "Link for reuse",
-  "main": "index",
-  "types": "index",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:dev": "tsc --watch",
