@@ -10,7 +10,7 @@ import express from 'express';
 import { linkDb, usersDB } from './utils/config';
 
 let corsOptions = { 
-    origin : ['http://localhost:4200','http://localhost:51759/'], 
+    origin : ['http://localhost:4200','http://localhost:51759'], 
  } 
 
 const app = express();
