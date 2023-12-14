@@ -9,9 +9,9 @@ import cors from 'cors';
 import express from 'express';
 import { linkDb, usersDB } from './utils/config';
 
-let corsOptions = { 
-    origin : ['http://localhost:4200','http://localhost:51759'], 
- } 
+let corsOptions = {
+    origin: ['http://localhost:4200', 'http://localhost:51759', 'https://long-rose-hare-cape.cyclic.app'],
+}
 
 const app = express();
 app.use(json());
