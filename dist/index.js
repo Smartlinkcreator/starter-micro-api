@@ -12,7 +12,7 @@ var cors_1 = tslib_1.__importDefault(require("cors"));
 var express_1 = tslib_1.__importDefault(require("express"));
 var config_1 = require("./utils/config");
 var corsOptions = {
-    origin: ['http://localhost:4200', 'http://localhost:51759/'],
+    origin: ['http://localhost:4200', 'http://localhost:51759'],
 };
 var app = (0, express_1.default)();
 app.use((0, body_parser_1.json)());
